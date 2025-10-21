@@ -1,0 +1,45 @@
+/* src/features/auth/components/RegisterForm.css */
+.register-form-container {
+  max-width: 420px; /* Um pouco mais largo para acomodar os campos */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Reutilizando o estilo do título do LoginForm */
+.register-form-container .title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #111827;
+}
+
+/* Garante que os labels fiquem alinhados à esquerda */
+.register-form-container .input-wrapper {
+  text-align: left;
+}
+
+.login-link {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.login-link a {
+  color: #2563eb; /* Mesmo azul do botão */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* src/features/auth/components/RegisterForm.css */
+.error-message {
+  color: #ef4444; /* Vermelho */
+  font-size: 0.875rem;
+  text-align: left;
+  margin-top: -0.75rem; /* Puxa a mensagem para perto do input */
+  margin-bottom: 1rem;
+}

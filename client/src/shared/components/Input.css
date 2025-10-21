@@ -1,0 +1,30 @@
+/* src/shared/components/Input.css */
+.input-wrapper {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  color: #333; /* Cor escura para o texto do label */
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  
+  /* --- REGRAS IMPORTANTES PARA CORRIGIR O PROBLEMA --- */
+  border: 1px solid #d1d5db; /* Cinza claro para a borda */
+  background-color: white;   /* Fundo branco (se o fundo da página for diferente) */
+  color: #111827;            /* Cor escura para o texto digitado */
+  
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.input-field::placeholder {
+  color: #9ca3af; /* Cinza mais claro para o texto do placeholder */
+}

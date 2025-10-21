@@ -1,0 +1,40 @@
+/* src/shared/layouts/AuthLayout.css */
+
+/* Garante que o container principal ocupe toda a tela */
+.auth-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100vw; /* 100% da largura da tela */
+  min-height: 100vh; /* 100% da altura da tela */
+  background-color: white;
+}
+
+.auth-header {
+  /* O header não deve encolher */
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ... (as outras regras do header podem continuar as mesmas) ... */
+.logo { font-weight: 700; font-size: 1.25rem; }
+.auth-header nav { display: flex; align-items: center; gap: 1.5rem; }
+.auth-header nav a { text-decoration: none; color: #374151; }
+.register-button { background-color: #f3f4f6; padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; }
+
+/* A área principal que deve centralizar o conteúdo */
+.auth-main {
+  /* Faz o main ocupar todo o espaço vertical que sobrar */
+  flex-grow: 1;
+
+  /* Usa flexbox para centralizar seu filho direto */
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;     /* Centraliza na vertical */
+  
+  padding: 2rem;
+}

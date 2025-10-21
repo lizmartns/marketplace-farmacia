@@ -1,0 +1,64 @@
+/* src/features/auth/components/LoginForm.css */
+.login-form-container {
+  /* Define uma largura máxima para o formulário não ficar muito largo em telas grandes */
+  max-width: 400px;
+  /* Garante que o container ocupe 100% da largura disponível até o máximo */
+  width: 100%;
+  
+  /* Centraliza o container do formulário se a tela for maior que max-width */
+  margin: 0 auto;
+  
+  /* Centraliza o texto de todos os elementos filhos */
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem; /* 32px */
+  font-weight: 700;
+  margin-bottom: 2.5rem; /* Aumenta o espaço abaixo do título */
+  color: #111827; /* Preto/cinza escuro */
+}
+
+/* Garante que o label do input fique alinhado à esquerda */
+.login-form-container .input-wrapper {
+  text-align: left;
+}
+
+.forgot-password-link {
+  display: block;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #2563eb;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  margin: 1.5rem 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.social-login {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.signup-link {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.signup-link a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
