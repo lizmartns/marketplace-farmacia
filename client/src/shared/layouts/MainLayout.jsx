@@ -13,6 +13,7 @@ const MainLayout = ({ children }) => {
         <nav>
           <Link to="/about">Sobre</Link>
           <Link to="/services">Serviços</Link>
+          <Link to="/products">Produtos</Link> 
           <Link to="/contact">Contato</Link>
           <Link to="/login" className="login-button">Entrar</Link>
         </nav>

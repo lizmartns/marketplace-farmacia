@@ -10,6 +10,7 @@ const AuthLayout = ({ children }) => {
         <nav>
           <a href="/about">Sobre</a>
           <a href="/services">Serviços</a>
+          <Link to="/products">Produtos</Link>
           <a href="/contact">Contato</a>
           <a href="/register" className="register-button">Cadastre-se</a>
         </nav>
